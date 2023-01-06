@@ -1,0 +1,143 @@
+body{
+    font-family: 'Open Sans', sans-serif !important; 
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+.hero{
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ background: #fff8f3;
+ 
+}
+nav{
+ display: flex ;
+ width: 84%;
+ margin: auto;
+ padding: 20px 0;
+ align-items: center;
+ justify-content: space-between;
+
+}
+.logo{
+    height: 100px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif !important; 
+
+}
+    
+nav ul li a:hover{
+    color: rgb(228, 67, 67);
+    font-size: 16px;
+    
+    
+}
+.bannertl{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.bannertl h1{
+    font-size: 50px;
+    color: hsl(0, 0%, 13%);
+    margin-bottom: 20px;
+}
+span{
+    color: orangered;
+}
+.bannertl p{
+    color: #212121;
+    line-height: 22px;
+}
+.bannertl a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width: 59%;
+    height: 88%;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+
+}
+.other{
+    color: #212121;
+}
+.social-media{
+    font-family: 'Open Sans', sans-serif !important; 
+
+    font-size: 15px;
+    margin: 10% 10%;
+    border: 1px solid #8f8f8f;
+    padding: 10%;
+    border-radius: 5%;
+    background-color: rgb(248, 216, 216);
+    box-shadow: 10px 5px 5px rgb(92, 74, 74);
+}
+.contact{
+    display: flex;
+    background-color: #dfdfdf;
+    gap: 100px;
+    padding: 130px 200px;
+
+}
+section div{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    
+    text-align: center; 
+
+}
+.bannertl1{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact input, textarea{
+    margin-bottom: 20px;
+    border: 0;
+    width: 40%;
+    padding: 18px 30px;
+
+}
+input{
+    height: 60px;
+}
+.connect{
+    color: orangered;
+    font-weight: 900;
+
+}
+.paragraph{
+    padding: 10%;
+    font-weight: bolder;
+    color: #212121;
+}
